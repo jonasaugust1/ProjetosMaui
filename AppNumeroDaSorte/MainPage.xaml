@@ -4,8 +4,8 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="MainPage">
-    <ScrollView>
-        <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+    <ScrollView HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <VerticalStackLayout>
             <Image
                 HeightRequest="115"
                 Source="logo_green.svg"
@@ -25,35 +25,61 @@
             <HorizontalStackLayout
                 Margin="0,70"
                 HorizontalOptions="Center"
-                Spacing="20">
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
-                <Label
-                    FontSize="24"
-                    Text="01"
-                    TextColor="#00AB37" />
+                Spacing="5">
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 8">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 8">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 8">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 8">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 8">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
+                <Border
+                    Padding="10,5"
+                    Stroke="#00AB37"
+                    StrokeShape="RoundRectangle 8">
+                    <Label
+                        FontSize="24"
+                        Text="01"
+                        TextColor="#00AB37" />
+                </Border>
             </HorizontalStackLayout>
 
             <Label
